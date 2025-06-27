@@ -31,8 +31,8 @@
         <h1 class="font-bold text-[8dvh]">Bon Appetit: <br><span class="text-[var(--primary-color)]">Explore Culinary</span><br>Creations</h1>
         <p class="text-gray-500">Your ultimate destination for culinary entushiast! Explore our extensive collection of mouthwatering culinary</p>
         <div class="flex gap-6 mt-6">
-          <button class="bg-[var(--primary-color)] text-white text-[2dvh] font-medium p-3 rounded-full">Order Now &#10140;</button>
-          <button class="bg-[var(--primary-color)] text-white text-[2dvh] font-medium p-3 rounded-full">Watch Demo &#9654;</button>
+          <button class="bg-[var(--primary-color)] text-white text-[2dvh] font-medium p-3 rounded-full hover:scale-[1.03] hover: transition-[300ms]">Order Now &#10140;</button>
+          <button class="bg-[var(--primary-color)] text-white text-[2dvh] font-medium p-3 rounded-full hover:scale-[1.03] hover: transition-[300ms]">Watch Demo &#9654;</button>
         </div>
       </div>
       <div>
@@ -42,23 +42,59 @@
 
     <section class="flex flex-col justify-between items-center m-9">
       <h2 class="font-bold text-[6dvh]">Top Categories</h2>
-      <div class="grid grid-cols-4 gap-[8dvw] mt-9 justify-evenly items-center">
-        <div class="py-10 px-6 hover:bg-[var(--primary-color)] hover:text-white rounded-lg flex flex-col justify-between items-center border-2 border-solid border-[var(--tertiary-color)] hover:scale-105 transition-transform duration-300 hover:shadow-slate-400">
+      <div class="grid grid-cols-4 gap-[8dvw] mt-9 justify-evenly items-center cursor-pointer">
+        <div class="py-10 px-6 hover:bg-[var(--primary-color)] hover:text-white rounded-lg flex flex-col justify-between items-center border-2 border-solid border-[var(--tertiary-color)] hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:animate-softBounce">
           <img src="assets/Property 1=Pizza.svg" alt="fast food" class="h-45 w-45 mx-auto bg-[var(--tertiary-color)] rounded-full p-5 hover:cursor-pointer hover:animate-softBounce">
           <h3 class="pt-4 font-semibold text-[3dvh]">Fast Food</h3>
         </div>
-        <div class="py-10 hover:bg-[var(--primary-color)] hover:text-white rounded-lg flex flex-col justify-between items-center border-2 border-solid border-[var(--tertiary-color)] hover:scale-105 transition-transform duration-300">
+        <div class="py-10 hover:bg-[var(--primary-color)] hover:text-white rounded-lg flex flex-col justify-between items-center border-2 border-solid border-[var(--tertiary-color)] hover:scale-105 transition-transform duration-300 hover:animate-softBounce">
           <img src="assets/Property 1=Salad.svg" alt="salad" class="h-45 w-45 mx-auto bg-[var(--tertiary-color)] rounded-full p-5 hover:cursor-pointer hover:animate-softBounce">
           <h3 class="pt-4 font-semibold text-[3dvh]">Salad</h3>
         </div>
-        <div class="py-10 hover:bg-[var(--primary-color)] hover:text-white rounded-lg flex flex-col justify-between items-center border-2 border-solid border-[var(--tertiary-color)] hover:scale-105 transition-transform duration-300">
+        <div class="py-10 hover:bg-[var(--primary-color)] hover:text-white rounded-lg flex flex-col justify-between items-center border-2 border-solid border-[var(--tertiary-color)] hover:scale-105 transition-transform duration-300 hover:animate-softBounce">
           <img src="assets/Property 1=Noodle.svg" alt="noodle" class="h-45 w-45 mx-auto bg-[var(--tertiary-color)] rounded-full p-5 hover:cursor-pointer hover:animate-softBounce">
           <h3 class="pt-4 font-semibold text-[3dvh]">Noodle</h3>
         </div>
-        <div class="py-10 hover:bg-[var(--primary-color)] hover:text-white rounded-lg flex flex-col justify-between items-center border-2 border-solid border-[var(--tertiary-color)] hover:scale-105 transition-transform duration-300">
+        <div class="py-10 hover:bg-[var(--primary-color)] hover:text-white rounded-lg flex flex-col justify-between items-center border-2 border-solid border-[var(--tertiary-color)] hover:scale-105 transition-transform duration-300 hover:animate-softBounce">
           <img src="assets/Property 1=Juice.svg" alt="drink" class="h-45 w-45 mx-auto bg-[var(--tertiary-color)] rounded-full p-5 hover:cursor-pointer hover:animate-softBounce">
           <h3 class="pt-4 font-semibold text-[3dvh]">Drink</h3>
         </div>      
+      </div>
+    </section>
+
+    <section class="mx-9 mt-[12dvh] mb-9 grid grid-cols-2 gap-[3dvw]">
+      <div class="flex flex-col justify-between gap-[5dvh] pl-[5dvw]">
+        <h2 class="font-bold text-[8dvh]">Order Your Best Food Anytime</h2>
+        <p class="text-gray-500">Whether you’re seasoned chef or a kitchen novico, our user friendly platform caters to all levels of expertise, ensuring everyone can savor the joy of creating delicious meals.</p>
+        <button class="bg-[var(--primary-color)] text-white text-[2dvh] font-medium p-3 rounded-full hover:scale-[1.03] hover: transition-[300ms] w-[12dvw]">Order Now &#10140;</button>
+      </div>
+      <div class="flex justify-center items-center">
+        <img src="assets/image 1.svg" alt="foodbox chef" class="h-[50dvh]">
+      </div>
+    </section>
+
+    <section class="flex flex-col justify-center items-center mr-9 ml-9 mt-[12dvh] mb-[10dvh] ">
+      <h3 class="font-bold text-[6dvh]">Our Food Process</h3>
+      <div class="grid grid-cols-5 gap-auto mt-9 justify-evenly items-center px-10">
+        <div class="flex flex-col justify-center items-center gap-6">
+          <img src="assets/3 1.png" alt="" class="h-[25dvh] mx-auto bg-[var(--tertiary-color)] rounded-full p-5 ">
+          <h4 class="text-[2.5dvh] font-semibold">Prepare</h4>
+          <p class="text-center font-medium">Restaurants offer a variety of menus to deliver a better experiences.</p>
+        </div>
+        <div>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-6">
+          <img src="assets/1.png" alt="" class="h-[25dvh] mx-auto bg-[var(--tertiary-color)] rounded-full p-5 ">
+          <h4 class="text-[2.5dvh] font-semibold">Packing</h4>
+          <p class="text-center font-medium">Catering companies specialize in providing food and beverage service.</p>
+        </div>
+        <div>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-6">
+          <img src="assets/2 1.png" alt="" class="h-[25dvh] mx-auto bg-[var(--tertiary-color)] rounded-full p-5 ">
+          <h4 class="text-[2.5dvh] font-semibold">Deliver</h4>
+          <p class="text-center font-medium">Meal delivery services deliver freshly prepared meals directly to customers.</p>
+        </div>
       </div>
     </section>
     <script type="module" src="/src/main.js"></script>
