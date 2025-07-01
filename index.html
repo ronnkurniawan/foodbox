@@ -140,30 +140,29 @@
         <img src="assets/Layer 3 1.png" alt="" class="absolute z-0 -bottom-[44dvh] right-[1.5dvw] -top-[31dvh] w-[18dvw] h-[65dvh]">
       </div>
     </section>
-    <script type="module" src="/src/main.js"></script>
 
-    <footer class="">
-      <div class="grid grid-cols-4 justify-evenly items-start m-9 mt-[25dvh] mb-[10dvh] gap-9 p-9">
-        <div>
+    <footer>
+      <div class="flex flex-row justify-between items-start m-9 mt-[25dvh] mb-[10dvh] gap-9 p-9">
+        <div class="w-[23dvw]">
           <img src="assets/foodbox Logo.svg" alt="">
           <p class="pt-6">Your ultimate destination for all things food! Explore our exstensive collection of mouthwatering</p>
         </div>
         <div>
           <h6 class="font-semibold text-[3dvh]">Menu</h6>
           <ul class="pt-6">
-            <li>about</li>
-            <li>Menu</li>
-            <li>Event</li>
-            <li>Other</li>
+            <li class="cursor-pointer hover:text-[var(--primary-color)]">about</li>
+            <li class="cursor-pointer hover:text-[var(--primary-color)]">Menu</li>
+            <li class="cursor-pointer hover:text-[var(--primary-color)]">Event</li>
+            <li class="cursor-pointer hover:text-[var(--primary-color)]">Other</li>
           </ul>
         </div>
         <div>
           <h6 class="font-semibold text-[3dvh]">Information</h6>
           <ul class="pt-6">
-            <li class="font-normal">contact</li>
-            <li>Order & Return</li>
-            <li>Videos</li>
-            <li>Reservation</li>
+            <li class="cursor-pointer hover:text-[var(--primary-color)]">contact</li>
+            <li class="cursor-pointer hover:text-[var(--primary-color)]">Order & Return</li>
+            <li class="cursor-pointer hover:text-[var(--primary-color)]">Videos</li>
+            <li class="cursor-pointer hover:text-[var(--primary-color)]">Reservation</li>
           </ul>
         </div>
         <div>
@@ -173,7 +172,19 @@
           <p class="pt-6">9.00 am - 12.00 pm</p>
         </div>
       </div>
-      <div></div>
+      <div>
+        <p class="back-top_btn flex justify-center items-center py-5 cursor-pointer font-medium text-[3dvh]  " onclick="
+        backToTop();
+        ">Back to Top &#10506;</p>
+        <div class="flex flex-row justify-center gap-5">
+          <img src="assets/Frame 33.png" alt="">
+          <img src="assets/Frame 33.png" alt="">
+          <img src="assets/Frame 33.png" alt="">
+          <img src="assets/Frame 33.png" alt="">
+        </div>
+        <p class="flex justify-center items-center py-5">Copyright(c) 2025 foodbox | All Rights Reserved</p>
+      </div>
     </footer>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
